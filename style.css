@@ -1,0 +1,579 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+.first-head{
+	background-color: #ff4c68; 
+}
+.h-nav{
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.7rem;
+	color: white;
+}
+
+
+nav{
+	width:70%;
+	margin: 0 auto;
+	padding-top: 40px;
+	
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.h{
+	margin-right:  auto;
+
+}
+}
+.p{
+	display: inline-block;
+
+}
+.pp{
+	display: inline-block;
+	padding: 0 20px;
+	font-size: 1.2rem;
+	color:   #F5E7E6 ;
+}
+.h1{
+	font-size: 3.5rem;
+	color: white;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 100px;
+
+}
+.btn-h-bt{
+	margin-top: 50px;
+	text-align: center;
+}
+
+
+.body-head{
+	width: 70%;
+	
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+.iphone{
+	position: relative;
+	top: 120px;
+	width: 20rem;
+	transform: rotate(25deg);
+
+}
+.z{
+	position: relative;
+	background-color: white;
+	height: 500px;
+	z-index: 1;
+}
+.apple{
+	border: solid 1px;
+	
+
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 11px 15px 10px 15px;
+  text-decoration: none;
+  background-color: unset;
+}
+
+.apple:hover {
+  background: #ffffff;
+  color: black;
+  background-image: -webkit-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -moz-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -ms-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: -o-linear-gradient(top, #ffffff, #f5f5f5);
+  background-image: linear-gradient(to bottom, #ffffff, #f5f5f5);
+  text-decoration: none;
+  border: solid 1px;
+  border-color:#ffffff; 
+}
+.btnn1{
+	margin:10px;
+	
+	display: inline-block;
+}
+.btnn2{
+	
+	display: inline-block;
+	margin: 10px;
+}
+
+.android{
+		border:  hidden;
+		
+
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 3px;
+  font-family: Arial;
+  color: white ;
+  font-size: 20px;
+  padding: 11px 15px 10px 15px;
+  text-decoration: none;
+  background-color:  #272525 ;
+}
+
+.android:hover{
+	background-color:  black;
+  color: white;
+ 
+  text-decoration: none;
+  border: hidden;
+}
+
+.fa-apple{
+padding-right: 5px;
+}
+.fa-google-play{
+	padding-right: 5px;
+}
+
+.container{
+
+	position: relative;
+	z-index: 1;
+	background-color: white;
+}
+
+.mideam{
+	
+	display: flex;
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 80%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.div-mideam{
+	text-align: center;
+}
+
+.fa-bullseye,.fa-heart,.fa-check-circle{
+	font-size: 50px;
+	color: rgba(247, 152, 202,1);
+	margin: 20px 0;
+}
+.fa-bullseye:hover,.fa-heart:hover,.fa-check-circle:hover{
+	color: #ff4c68;
+}
+
+
+.h2-flex{
+	margin: 20px auto;
+	font-weight: 500;
+	width: 80%;
+	}
+.p-flex{
+	margin: 20px auto;
+	font-weight: 300;
+	width: 80%;
+	color: gray;
+}
+
+
+.container2{
+	background-color: #ff4c68;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+      .text-co2{
+color: white;
+text-align: center;
+width: 70%;
+margin-top: 60px;
+
+}
+.h1-con2{
+font-size: 3.5rem;
+font-weight: 400;
+}
+
+       .div-co2{
+
+margin: 30px 0 40px;
+display: flex;
+align-items: center;
+}
+
+.img-div{
+width: 80px;
+height: 80px;
+border-style: hidden;
+border-radius:50%;
+
+
+}
+
+.p-div{
+display: inline-block;
+margin-left: 20px;
+color:#ECDEE5  ;
+
+
+}
+
+      .con-con2{
+margin: 70px 0;
+}
+
+  .con2-flex{
+ display: flex;
+ align-items: center;
+}
+.img-con2{
+	width: 8rem;
+	margin: 20px;
+
+}
+
+.card{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.h1-p{
+	margin: 100px 0 40px;
+}
+.h1-h1-p{
+	margin-bottom: 30px;
+	font-size: 3rem;
+	font-weight: 300;
+	text-align: center;
+}
+
+.p-h1-p{
+	color: gray;
+	font-family: monospace;
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.grid-card{
+	
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	
+	grid-template-areas: "a a a a b b b b c c c c";
+	grid-gap: 40px;
+	align-content: space-around;
+
+
+
+}
+
+.first-card{
+	grid-area: a;
+	width: 100%;
+	
+	text-align: center;
+	border: 2px solid #E8ECED;
+	border-radius: 10px;
+
+	
+
+}
+.second-card{
+   grid-area: b;
+
+  
+   text-align: center;
+   border: 2px solid #E8ECED;
+	border-radius: 10px;
+   
+
+
+}
+.third-card{
+ grid-area: c;
+ 
+ text-align: center;
+ border: 2px solid #E8ECED;
+	border-radius: 10px;
+}
+
+.h2-card{
+
+padding: 20px 30px 40px;
+	font-weight: 300;
+	font-size: 1.8rem;
+	background-color:#E8ECED; 
+	 
+}
+
+.h1-card{
+	
+	margin: 20px 0;
+	font-weight: 400;
+	font-size: 3rem;
+}
+.p-card{
+	color: gray;
+	font-family: monospace;
+	text-align: center;
+	font-size: 1.2rem;
+	margin: 10px;
+}
+
+.button{
+	width: 80%;
+	margin: 20px 0;
+border:  hidden;
+		
+
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 3px;
+  font-family: Arial;
+  color: white ;
+  font-size: 20px;
+  padding: 11px 15px 10px 15px;
+  text-decoration: none;
+  background-color:  #272525 ;
+}
+
+
+.button:hover{
+	background-color:  black;
+  color: white;
+ 
+  text-decoration: none;
+  border: hidden;
+}
+
+.befor-last{
+	background-color: #ff4c68;
+	padding: 80px;
+}
+
+.h1-last{
+	font-size: 3.5rem;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	width: 80%;
+	margin: 0 auto;
+	
+}
+
+
+#footer{
+	height:  200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.social{
+	margin: 25px 0;
+}
+
+.a-footer{
+	font-size: 2rem;
+	padding: 0 5px;
+	color: #293032  ;
+}
+
+.p-footer{
+	color: gray;
+	font-family: monospace;
+	text-align: center;
+	font-size: 1.2rem;
+
+}
+
+@media all and  (max-width: 950px) {
+	nav{
+		width: 90%;
+
+	}
+	.body-head{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    }
+	.iphone{
+	position: static;
+	top: 0;
+	width: 25rem;
+	transform: rotate(0deg);}
+
+	.h1-con2{
+         font-size: 2.5rem;
+         font-weight: 300;
+      }
+
+}
+
+@media all and (max-width: 900px){
+    .grid-card{
+	
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	
+	grid-template-areas: "a a a a a a b b b b b b"
+	". c c c c c c c c c c ." ;
+
+	grid-gap: 40px;
+	align-content: space-around;
+
+
+
+     }
+        .con-con2{
+          margin: 70px 0;
+          }
+
+         .con2-flex{
+        display: flex;
+        align-items: center;
+       }
+       .img-con2{
+       	width: 4rem;
+       	margin: 20px;
+
+       }
+       .h1-last{
+	font-size: 2.5rem;
+	color: white;
+	font-weight: 200;
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	
+     }
+
+
+
+}
+
+@media all and (max-width: 650px){
+	     .pp{
+	display: inline-block;
+	padding: 0 0 0 7px;
+	font-size: 1.2rem;
+	color:   #F5E7E6 ;
+    }
+
+    .h1{
+	font-size: 2.7rem;
+	color: white;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 100px;
+
+     }
+     .body-head{
+	width: 95%;
+	
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+     }
+     .mideam{
+	
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	padding: 40px 0;
+	width: 80%;
+	justify-content: space-between;
+	align-items: center;
+    }
+
+.div-mideam{
+	text-align: center;
+	margin: 15px 0;
+     }
+
+     .h1-con2{
+      font-size: 2.1rem;
+      font-weight: 300;
+      }
+      .text-co2{
+    color: white;
+    text-align: center;
+   margin-top: 60px;
+      width:92%; }
+
+      .con-con2{
+     margin: 30px 0;
+      }
+
+      .h1-h1-p{
+	margin-bottom: 30px;
+	font-size: 2.5rem;
+	font-weight: 300;
+	text-align: center;
+     }
+
+     .h1-p{
+	margin: 50px 0 40px;
+	width: 90%;
+    }
+
+    .p-h1-p{
+    	margin: 0 auto;
+    	width: 90%;
+	color: gray;
+	font-family: monospace;
+	text-align: center;
+	font-size: 1.2rem;
+    }
+
+    .grid-card{
+	
+	width: 80%;
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+	
+	grid-template-areas: ". a a a a a a a a a a ."
+	". b b b b b b b b b b ."
+	". c c c c c c c c c c ." ;
+
+	grid-gap: 40px;
+	align-content: space-around;
+
+
+
+     }
+     .befor-last{
+	background-color: #ff4c68;
+	padding: 20px;
+   }
+
+   .h1-last{
+	font-size: 2.5rem;
+	color: white;
+	font-weight: 300;
+	text-align: center;
+	width: 99%;
+	margin: 0 auto;
+	
+    }
+
+
+
+}
